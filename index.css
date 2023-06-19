@@ -1,0 +1,275 @@
+/*nav*/
+.bar{
+    position:relative;
+    text-align: center;
+    padding: 20px;
+    background:black;
+}
+
+.bar-top img {
+    max-width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.bar-bottom a {
+    font-size: 24px;
+    margin: 18px 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.bar-extra {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.bestseller{
+    transition: ease 1s;
+}
+
+.bestseller:hover img {
+    transition: scale(2);
+}
+
+.col img {
+    height: auto; 
+    /* width:33%; */
+    padding:5px;
+}
+
+.col {
+    border: 2px grey;
+}
+
+
+.container h3 {
+    padding-top:50px;
+}
+
+
+
+
+.largecake img{
+    width:60%;
+}
+
+.piececake img{
+    width:60%;
+}
+
+.bread img{
+    width:60%;
+}
+
+
+.large {
+    background-color: rgba(243, 236, 226, 0.884);
+    padding: 20px;
+}
+
+.largecake {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}  
+
+.sliced {
+    padding: 20px;
+}
+
+.slicecake {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}  
+
+.largecake img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.bread {
+    background-color: rgba(243, 236, 226, 0.884);
+    padding: 20px;
+}
+
+.bakery {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}  
+
+
+
+
+.container {
+  margin: 0 auto;
+}
+
+.menubanner {
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.menubanner h3 {
+  display: inline-block;
+  width: 100%;
+    text-align: center !important;
+}
+
+.menubanner a {
+  display: inline-block;
+}
+
+
+.newsheader h3 {
+    text-align: center;
+    padding-top:150px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+
+/* card */
+.cake-card {
+    /* width: 800px; */
+    display: flex;
+    justify-content: center;
+    background-color: #f4eee6;
+    height: 200px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.cake-card:hover {
+  background-color: #e8dbc9;
+}
+
+.cake-card-left {
+    width: 50%;
+    height: 100%;
+}
+
+.cake-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cake-card.card-expanded {
+    height: 400px;
+}
+
+
+
+h2 {
+    font-family:sans-serif;
+  }
+  .list {
+    font-family:sans-serif;
+    margin:0;
+    padding:20px 0 0;
+  }
+  .list > li {
+    display:block;
+    background-color: #eee;
+    padding:10px;
+    box-shadow: inset 0 1px 0 #fff;
+  }
+  .avatar {
+    max-width: 150px;
+  }
+  img {
+    max-width: 100%;
+  }
+  h3 {
+    font-size: 16px;
+    margin:0 0 0.3rem;
+    font-weight: normal;
+    font-weight:bold;
+  }
+  p {
+    margin:0;
+  }
+  
+  input {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:7px 14px;
+    margin-bottom:10px
+  }
+  input:focus {
+    outline:none;
+    border-color:#aaa;
+  }
+  .sort {
+    padding:8px 30px;
+    border-radius: 6px;
+    border:none;
+    display:inline-block;
+    color:#fff;
+    text-decoration: none;
+    background-color: #e28178;
+    height:30px;
+  }
+  .sort:hover {
+    text-decoration: none;
+    background-color:#e28178;
+  }
+  .sort:focus {
+    outline:none;
+  }
+  .sort:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+  }
+
+  .list li {
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+  }
+
+
+.menuheading{
+  text-align: center;
+  padding: 50px;
+}
+
+
+.productheading {
+  text-align: center;
+  padding: 50px;
+}
+
+.product{
+  width: 50%;
+  padding: 20px;
+}
+
+.detailinfo img{
+  display: flex;
+  align-content: center;
+  margin: 50px;
+  max-width: 100%;
+}
+
+.bottombanner {
+  background: #fdf1d7;
+}
