@@ -46,15 +46,22 @@
 }
 
 
-.container h3 {
+.container h2 {
     padding-top:50px;
 }
 
 
-
+.cake-card-right p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 .largecake img{
     width:60%;
+}
+
+.size button{
+  border-radius: 10px;
 }
 
 .piececake img{
@@ -130,14 +137,30 @@
   display: inline-block;
 }
 
-
-.newsheader h3 {
-    text-align: center;
-    padding-top:150px;
-    margin-bottom: 20px;
-    flex: 1;
+.aboutheader h2{
+  text-align: center;
+  padding-top:100px;
+  margin-bottom: 50px;
+  flex: 1;
 }
 
+.shopdiscription img{
+  padding-bottom: 20px;
+}
+
+.newsheader h2 {
+  text-align: center;
+  padding-top:150px;
+  margin-bottom: 50px;
+  flex: 1;
+}
+
+.social{
+  text-align: center;
+  padding-top:150px;
+  margin-bottom: 50px;
+  flex: 1;
+}
 
 /* card */
 .cake-card {
@@ -192,7 +215,6 @@ h2 {
     max-width: 100%;
   }
   h3 {
-    font-size: 16px;
     margin:0 0 0.3rem;
     font-weight: normal;
     font-weight:bold;
@@ -246,6 +268,10 @@ h2 {
     box-sizing: border-box;
   }
 
+  .li {
+    background-color: #e8dbc9;
+  }
+
 
 .menuheading{
   text-align: center;
@@ -254,8 +280,14 @@ h2 {
 
 
 .productheading {
-  text-align: center;
+  text-align: left;
   padding: 50px;
+  background-color: #e8dbc9;
+}
+
+.p-3 p{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .product{
@@ -263,13 +295,28 @@ h2 {
   padding: 20px;
 }
 
+.cart{
+  margin-top: 50px;
+}
+
+.selection{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .detailinfo img{
-  display: flex;
-  align-content: center;
-  margin: 50px;
-  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .bottombanner {
+  margin-top: 30px;
   background: #fdf1d7;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.p-3 button {
+  border-radius: 10px;
 }
